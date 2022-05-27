@@ -1,0 +1,93 @@
+p {
+    padding: 1px;
+}
+
+body {
+    background-color: #000;
+}
+
+/* ======================moviesApi======================================================================= */
+
+.post {
+    position: relative;
+    overflow: hidden;
+}
+
+.view {
+    position: absolute;
+    top: 0;
+    bottom: -1320;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, .7);
+    opacity: 0;
+    transition: all 1s;
+}
+
+.view:hover {
+    opacity: 1;
+    bottom: 0;
+}
+
+/* ======================sideMenu======================================================================= */
+
+#sideMenu {
+    position: fixed;
+    background: #000;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 300px;
+    display: flex;
+}
+
+#sideMenu a {
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: none;
+}
+
+#sideMenu .p {
+    color: #999;
+}
+
+.hov {
+    color: #f9f6f6;
+}
+
+.hov:hover {
+    color: #ff655c;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.ship {
+    background-color: #f8f6f6;
+    width: 50px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icon-Items {
+    font-size: 22px;
+    cursor: pointer;
+    color: #000;
+}
+
+/* =================================contactUs================================= */
+
+input {
+    background-color: #000 !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+.test {
+    display: none;
+    color: #721c24 !important;
+    background-color: #f8d7da !important;
+    border-color: #f5c6cb !important;
+}

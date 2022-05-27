@@ -1,0 +1,102 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section id="moviesApi">
+        <div class="container mt-5 ">
+            <div class="row  mb-5 p-4">
+                <div class="col-md-6">
+                    <input class="form-control text-center" id="byWord" placeholder="get movies by word...">
+                </div>
+                <div class="col-md-6">
+                    <input class="form-control text-center" id="byScreen" placeholder="search...">
+                </div>
+            </div>
+            <div id="postRow" class="row">
+
+            </div>
+            <div id="ContacUs" class="mb-5 ps-4 ">
+                <h2 class="text-light my-5">ContacUs...</h2>
+                <div class="row mb-5 ">
+                    <div class="col-md-6">
+                        <input class="form-control text-center " id="UserName" placeholder="Enter Your Name">
+                        <input class="form-control test " placeholder="Your Name is not valid" disabled>
+                    </div>
+                    <div class="col-md-6">
+                        <input class="form-control text-center" id="Email" type="email" placeholder="Enter Email">
+                        <input class="form-control test " placeholder="entre valid email" disabled>
+                    </div>
+                </div>
+
+                <div class="row mb-5 ">
+                    <div class="col-md-6">
+                        <input class="form-control text-center" id="PhoneNumber" type="" placeholder="Enter Number">
+                        <input class="form-control test " placeholder="entre valid phone" disabled>
+                    </div>
+                    <div class="col-md-6">
+                        <input class="form-control text-center" id="Age" type="" placeholder="Enter Age">
+                        <input class="form-control test " placeholder="entre valid Age" disabled>
+                    </div>
+                </div>
+
+                <div class="row mb-5 ">
+                    <div class="col-md-6">
+                        <input class="form-control text-center" id="Password" type="password"
+                            placeholder="Enter Password">
+                        <input class="form-control test "
+                            placeholder="entre valid password *Minimum eight characters, at least one letter and one number:*"
+                            disabled>
+                    </div>
+                    <div class="col-md-6">
+                        <input class="form-control text-center" id="RePassword" type="password"
+                            placeholder="Enter RePassword">
+                        <input class="form-control test " placeholder="entre valid Repassword" disabled>
+                    </div>
+                </div>
+                <button class="btn btn-outline-danger" disabled>Submit</button>
+            </div>
+        </div>
+    </section>
+    <section id="sideMenu">
+        <div id="menuOption" class="container position-relative">
+            <div class="aLinks ">
+                <ul type="none">
+                    <li class="m-4"><a id="playing" class=" hov" href="">Now playing</a></li>
+                    <li class="m-4"><a id="Popular" class=" hov" href="">Popular</a></li>
+                    <li class="m-4"><a id="Rated" class=" hov" href="">Top Rated</a></li>
+                    <li class="m-4"><a id="Trending" class=" hov" href="">Trending</a></li>
+                    <li class="m-4"><a id="Upcoming" class=" hov" href="">Upcoming</a></li>
+                    <li class="m-4"><a id="Contact" class="hov" href="#ContacUs">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="position-absolute bottom-0">
+                <i class=" hov fab fa-facebook-f m-2"></i>
+                <i class=" hov fab fa-twitter m-2"></i>
+                <i class=" hov fas fa-globe m-2"></i>
+                <p>Copyright Â© 2019 All Rights Reserved.</p>
+            </div>
+
+        </div>
+        <div class="ship text-center">
+            <img src="images/logo.png" class=" w-100 p-3 mt-1 " alt="">
+            <div class="icon-Items">
+                <i id="alignButton" class="fa fa-align-justify"></i>
+            </div>
+            <div class="icon-Items p-3 text-center">
+                <i class="fas fa-globe mb-3"></i>
+                <i class="fas fa-share-alt"></i>
+            </div>
+        </div>
+    </section>
+
+    <script src=" js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
